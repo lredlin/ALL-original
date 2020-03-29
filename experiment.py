@@ -1344,7 +1344,7 @@ if show == True:
 if subjectnr > 1:
     for k in range(len(showtrial)):
         showtrial[k] = 1
-print showtrial
+print (showtrial)
 # Define the window that the experiment will be run in. In a lot of psychopy functions you will see this window as the first argument, there we tell it to draw stuff in this window.
 win = visual.Window(fullscr = False, color = 'white', units = 'pix', size = [1200,700], allowGUI = None)
 trialnr = 1
